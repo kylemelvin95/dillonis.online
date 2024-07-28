@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-size: 22px;
-  font-family: monospace;
-  background-color: var(--ctp-base);
+	font-size: 22px;
+	font-family: monospace;
+	background-color: var(--ctp-base);
 }
