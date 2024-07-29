@@ -21,8 +21,12 @@
 		<li class="flex flex-row gap-2 items-center justify-between">
 			<span class="flex flex-row gap-4"><TwitterIcon />Twitter/𝕏</span>gx
 		</li>
-		<li class="flex flex-row gap-2 items-center justify-between">
-			<span class="flex flex-row gap-4"><TwitchIcon />Twitch</span>gt
+		<li
+			class="p-1 cursor-none hover:cursor-pointer flex flex-row gap-2 items-center justify-between hover:bg-[#313346] hover:text-[#6441a5]"
+		>
+			<span class="flex flex-row gap-4 items-center"
+				><TwitchIcon /><span class="text-ctp-subtext0">Twitch</span></span
+			>gt
 		</li>
 		<li class="flex flex-row gap-2 items-center justify-between">
 			<span class="flex flex-row gap-4"><YoutubeIcon />YoutTube</span>gyt
