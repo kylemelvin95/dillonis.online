@@ -18,12 +18,12 @@
 		<li
 			class="group p-1 cursor-none hover:cursor-pointer flex flex-row gap-2 items-center justify-between hover:bg-[#313346]"
 		>
-			<span class="flex flex-row gap-4 items-center"><Github />GitHub</span>ggh
+			<span class="flex flex-row gap-4 items-center"><Github class="group-hover:text-[#2dba4e]" />GitHub</span>ggh
 		</li>
 		<li
 			class="group p-1 cursor-none hover:cursor-pointer flex flex-row gap-2 items-center justify-between hover:bg-[#313346]"
 		>
-			<span class="flex flex-row gap-4 items-center"><TwitterIcon />Twitter/𝕏</span>gx
+			<span class="flex flex-row gap-4 items-center"><TwitterIcon class="group-hover:text-[#1D9BF0]" />Twitter/𝕏</span>gx
 		</li>
 		<li
 			class="group p-1 cursor-none hover:cursor-pointer flex flex-row gap-2 items-center justify-between hover:bg-[#313346]"
@@ -35,22 +35,22 @@
 		<li
 			class="group p-1 cursor-none hover:cursor-pointer flex flex-row gap-2 items-center justify-between hover:bg-[#313346]"
 		>
-			<span class="flex flex-row gap-4 items-center"><YoutubeIcon />YoutTube</span>gyt
+			<span class="flex flex-row gap-4 items-center"><YoutubeIcon class="group-hover:text-[#FF1A1A]" />YouTube</span>gyt
 		</li>
 		<li
 			class="group p-1 cursor-none hover:cursor-pointer flex flex-row gap-2 items-center justify-between hover:bg-[#313346]"
 		>
-			<span class="flex flex-row gap-4 items-center"><LinkedinIcon />LinkedIn</span>gli
+			<span class="flex flex-row gap-4 items-center"><LinkedinIcon class="group-hover:text-[#0a66c2]" />LinkedIn</span>gli
 		</li>
 		<li
 			class="group p-1 cursor-none hover:cursor-pointer flex flex-row gap-2 items-center justify-between hover:bg-[#313346]"
 		>
-			<span class="flex flex-row gap-4 items-center"><MicVocalIcon />Conference Talks</span>gct
+			<span class="flex flex-row gap-4 items-center"><MicVocalIcon class="group-hover:text-ctp-peach" />Conference Talks</span>gct
 		</li>
 		<li
 			class="group p-1 cursor-none hover:cursor-pointer flex flex-row gap-2 items-center justify-between hover:bg-[#313346]"
 		>
-			<span class="flex flex-row gap-4 items-center"><MailPlusIcon />Contact Me</span>gcm
+			<span class="flex flex-row gap-4 items-center"><MailPlusIcon class="group-hover:text-ctp-mauve" />Contact Me</span>gcm
 		</li>
 	</ul>
 </main>
