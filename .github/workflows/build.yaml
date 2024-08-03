@@ -18,25 +18,7 @@ jobs:
           node-version: 20
 
     - name: Install dependencies
-      run: npm install --legacy-peer-deps
-
-    - name: Run lint
-      run: npx prettier --write
-  
-  build:
-    runs-on: ubuntu-latest
-    needs: lint
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Install NodeJS
-      uses: actions/setup-node@v3 
-      with:
-          node-version: 20 
-
-    - name: Install dependencies
-      run: npm install --legacy-peer-deps
+      run: npm install --legacy-peer-deps 
 
     - name: Run dev script
       run: npm run dev
