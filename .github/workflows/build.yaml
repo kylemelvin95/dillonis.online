@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -42,7 +39,7 @@ jobs:
 
     - name: Run dev script
       run: npm run dev
-      
+
     - name: Run build script
       run: npm run build
 
