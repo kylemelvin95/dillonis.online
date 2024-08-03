@@ -42,7 +42,7 @@ jobs:
 
     - name: Run dev script
       run: npm run dev
-g
+      
     - name: Run build script
       run: npm run build
 
